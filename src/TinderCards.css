@@ -9,7 +9,7 @@
 .tinder__cards {
     width: 100%;
     /* color: blueviolet; */
-    height: 600px;
+    height:400px;
 }
 
 .cards__container {
@@ -20,14 +20,14 @@
     /* border: 1px solid red; */
     display: flex;
     justify-content: center;
-    margin-top: 10vh;
+    /* margin-top: 10vh; */
 }
 
 .card {
     position: relative;
     background-color: #fff;
     width: 100%;
-    height: 500px;
+    height: 400px;
     /* width: 50vw; */
     /* padding: 20px; */
     /* max-width: 85vw; */
@@ -46,7 +46,7 @@
 .swipe {
     position: absolute;
     height: 100%;
-    width: 500px;
+    width: 350px;
 }
 
 .card h3 {
