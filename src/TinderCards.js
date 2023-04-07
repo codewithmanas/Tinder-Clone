@@ -41,8 +41,6 @@ function TinderCards() {
                 <h3>{person.name}</h3>
               </div>
               </TinderCard>
-                {/* <h1>{person.name}</h1> */}
-                {/* <img src={person.url} alt="elon" /> */}
               </>
               )
             })}

@@ -1,18 +1,14 @@
 .swipe__buttons {
     position: fixed;
-    /* bottom: 10vh; */
     bottom: 2px;
     width: 100%;
 }
 
 .swipe__btn__container {
-    /* position: fixed; */
-    /* bottom: 10vh; */
     max-width: 600px;
     display: flex;
     align-items: center;
     margin: 0 auto;
-    /* border: 1px solid red; */
     padding: 20px;
     justify-content: space-evenly;
 
