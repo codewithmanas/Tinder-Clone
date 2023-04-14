@@ -7,16 +7,12 @@ function TinderCards() {
 
   const [ people, setPeople ] = useState([]);
 
-  // const fetchData = async () => {
-  //   const req = await axios.get("/tinder/cards");
-  //   setPeople(req.data);
-  // }
+  const fetchData = async () => {
+    const req = await axios.get("/tinder/cards");
+    setPeople(req.data);
+  }
 
   useEffect(() => {
-    const fetchData = async () => {
-      const req = await axios.get("/tinder/cards");
-      setPeople(req.data);
-    }
     fetchData();
   }, []);
 
