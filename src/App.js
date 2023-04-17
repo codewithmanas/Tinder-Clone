@@ -7,13 +7,10 @@ function App() {
   return (
     // BEM class naming convention
     <div className="App">
-      {/* Header */}
       <Header />
 
-      {/* TinderCards */}
       <TinderCards />
 
-      {/* SwipeButtons */}
       <SwipeButtons />
     </div>
   );
